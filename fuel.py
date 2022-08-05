@@ -88,3 +88,26 @@ main()
 #     Run your program with python fuel.py. Type three/four and press Enter. Your program should handle a ValueError and prompt the user again.
 #     Run your program with python fuel.py. Type 1.5/3 and press Enter. Your program should handle a ValueError and prompt the user again.
 #     Run your program with python fuel.py. Type 5/4 and press Enter. Your program should prompt the user again.
+
+
+#############
+#   Hints   #
+#############
+
+#     Recall that a str comes with quite a few methods, per docs.python.org/3/library/stdtypes.html#string-methods, including split.
+#     Note that you can handle two exceptions separately with code like:
+#
+#     try:
+#         ...
+#     except ValueError:
+#         ...
+#     except ZeroDivisionError:
+#         ...
+#
+#     Or you can handle two exceptions together with code like:
+#
+#     try:
+#         ...
+#     except (ValueError, ZeroDivisionError):
+#         ...
+
